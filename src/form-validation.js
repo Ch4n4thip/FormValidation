@@ -1,8 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
-export function FormValidation() {
+
+export default function FormValidation() {
   const cats = [
     ["100", "ไอที"],
     ["200", "เครื่องจักรกล"],
